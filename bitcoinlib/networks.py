@@ -28,6 +28,9 @@ from bitcoinlib.encoding import to_hexstring, normalize_var
 _logger = logging.getLogger(__name__)
 
 
+DEFAULT_NETWORK = 'bitcoin'
+
+
 class NetworkError(Exception):
     """
     Network Exception class
